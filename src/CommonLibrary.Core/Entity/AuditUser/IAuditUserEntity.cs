@@ -2,8 +2,10 @@ using CommonLibrary.Core.Entity.Audit;
 
 namespace CommonLibrary.Core.Entity.AuditUser;
 
-public interface IAuditUserEntity<T> : IAuditEntity<T>
+public interface IAuditUserEntity<TKey, TUserKey> : IAuditEntity<TKey>
+where TKey : IComparable
+    
 {
-    string CreatedBy { get; set; }
-    string? LastUpdatedBy { get; set; }
+    TUserKey? CreatedBy { get; set; }
+    TUserKey? LastUpdatedBy { get; set; }
 }

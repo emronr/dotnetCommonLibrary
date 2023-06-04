@@ -1,6 +1,7 @@
 namespace CommonLibrary.Core.Entity.Base;
 
-public interface IEntity<T>
+public interface IEntity<TKey>
+    where TKey : IComparable
 {
-    T Id { get; set; }
+    TKey Id { get; set; }
 }
