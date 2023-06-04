@@ -4,6 +4,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A44346B0-50E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonLibrary.Core", "src\CommonLibrary.Core\CommonLibrary.Core.csproj", "{05A0EB4F-01B2-44B8-AA65-F2496E7C913A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonLibrary.Model", "src\CommonLibrary.Model\CommonLibrary.Model.csproj", "{3FFA7C28-2474-469A-A53B-09A8530FF9E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,8 +16,13 @@ Global
 		{05A0EB4F-01B2-44B8-AA65-F2496E7C913A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05A0EB4F-01B2-44B8-AA65-F2496E7C913A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05A0EB4F-01B2-44B8-AA65-F2496E7C913A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FFA7C28-2474-469A-A53B-09A8530FF9E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FFA7C28-2474-469A-A53B-09A8530FF9E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FFA7C28-2474-469A-A53B-09A8530FF9E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FFA7C28-2474-469A-A53B-09A8530FF9E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{05A0EB4F-01B2-44B8-AA65-F2496E7C913A} = {A44346B0-50EC-4C90-8D2D-806F78011691}
+		{3FFA7C28-2474-469A-A53B-09A8530FF9E8} = {A44346B0-50EC-4C90-8D2D-806F78011691}
 	EndGlobalSection
 EndGlobal
